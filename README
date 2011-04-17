@@ -1,0 +1,25 @@
+PunyMVC is probably the most lightweight PHP MVC framework.
+It barely has any features at all. In spite of that, it's
+very useful for writing web apps, as it helps you keep your
+code organized in a logical way, but the framework itself
+never gets in your way. At all. Plus, there's really no
+learning curve (assuming you already understand the MVC
+paradigm and know how to code in object oriented PHP).
+
+The file public_html/index.php is really the entire framework.
+But a very, very simple blog demo app is included as well, to
+make it easier for you to see how to organize your code.
+
+Because most MVC frameworks (and web apps in general) use a
+relational database like MySQL, I decided to use MongoDB in
+the demo. The demo data is located in the included dump/
+directory. To use it, simply install MongoDB on your system,
+and use "mongorestore" to create the punymvc_demo database.
+
+Once you've loaded the data, all you need to do is move the
+contents of public_html (including the .htaccess file) into
+a web directory somewhere, and then access it through a
+browser. You can view a detailed walkthrough of setting up
+this demo app here:
+
+http://dave.ag/an-mvc-framework-in-799-bytes/
